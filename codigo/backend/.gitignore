@@ -1,0 +1,6 @@
+*.pem
+node_modules
+.ash_history
+.npm
+.env
+.env.aws
