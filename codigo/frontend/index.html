@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section>
+      <div class="form-box">
+        <div class="form-value">
+          <form action="">
+            <h2>Login</h2>
+            <div class="inputbox">
+              <ion-icon name="mail-outline"></ion-icon>
+              <input id="email" type="email" placeholder="Email" required />
+              <label for="email">Email</label>
+            </div>
+            <div class="inputbox">
+              <ion-icon name="lock-closed-outline"></ion-icon>
+              <input id="senha" type="password" placeholder="Senha" required />
+              <label for="senha">Senha</label>
+            </div>
+            <div class="forget">
+              <label for=""
+                ><input type="checkbox" />Lembrar
+                <a href="#">Minha Senha</a></label
+              >
+            </div>
+            <input type="submit" id="login" value="Entrar" class="btn-solid" />
+            <div class="register">
+              <p>
+                Ainda não possui uma conta?
+                <a href="./Cadastro/index.html">Cadastre-se</a>
+              </p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <script src="./login.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

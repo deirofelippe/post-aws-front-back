@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Página de Cadastro</title>
+  </head>
+  <body>
+    <section>
+      <div class="form-box">
+        <div class="form-value">
+          <form action="" name="formularioCadastro">
+            <h2>Login</h2>
+            <div class="inputbox">
+              <input id="nome" type="name" placeholder="Nome" required />
+              <label for="nome">Nome</label>
+            </div>
+
+            <div class="inputbox">
+              <input id="data" type="date" placeholder="Data" />
+              <label for="data">Data de Nascimento</label>
+            </div>
+
+            <div class="inputbox">
+              <input id="cpf" type="cpf" placeholder="CPF" required />
+              <label for="cpf">CPF</label>
+            </div>
+
+            <div class="inputbox">
+              <input id="telefone" type="tel" placeholder="Telefone" required />
+              <label for="telefone">Telefone</label>
+            </div>
+
+            <div class="inputbox">
+              <input id="email" type="email" placeholder="Email" required />
+              <label for="email">Email</label>
+            </div>
+
+            <div class="inputbox">
+              <input id="senha" type="password" placeholder="Senha" required />
+              <label for="senha">Senha</label>
+            </div>
+
+            <div class="inputbox">
+              <input
+                id="confirmar_senha"
+                type="password"
+                placeholder="Confirmar Senha"
+                required
+              />
+              <label for="confirmar_senha">Confirmar Senha</label>
+            </div>
+
+            <div class="forget">
+              <label for=""
+                ><input type="checkbox" />Lembrar
+                <a href="#">Minha Senha</a></label
+              >
+            </div>
+
+            <input
+              type="submit"
+              id="cadastrar"
+              value="Entrar"
+              class="btn-solid"
+            />
+            <div class="register">
+              <p>
+                Já possui uma conta?
+                <a href="../index.html">Faça o Login</a>
+              </p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <script src="./cadastro.js"></script>
+  </body>
+</html>
